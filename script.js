@@ -21,3 +21,6 @@ let jane = new Person('Jane', 2001, 'Housewife');
 
 console.log(omer);
 console.log(jane);
+
+let hasJobProperty = omer.hasOwnProperty('job');
+console.log(hasJobProperty);

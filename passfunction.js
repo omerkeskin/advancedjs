@@ -11,7 +11,7 @@ function arrayCalculate(arr, fn) {
 }
 
 function calculateAge(el) {
-   return 2020 - el;
+   return new Date().getFullYear() - el;
 }
 
 let resultArray = arrayCalculate(years, calculateAge);
